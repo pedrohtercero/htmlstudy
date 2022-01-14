@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@300&display=swap');;
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+div {
+
+    width: 600px;
+    height: 300px;
+    background-color: #CCCC;
+    margin: 30px 10px; /* Cada px que inserir, será um lado da div que será influenciada */
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 5px;
+    /* Inserindo bordas*/
+    /* Modo mais fácil: border: 10px solid #900;*/
+
+    /*overflow: hidden*/
+    /* Overflow hidden faz esconder o texto que não cabe na div. Overflow scroll faz uma barrinha para arrastar o texto. */
+
+
+}

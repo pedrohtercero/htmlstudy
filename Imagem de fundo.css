@@ -1,0 +1,37 @@
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/imagem2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+
+        width: 400px;
+        height: 400px;
+        margin: 10px auto;
+        /* MARGIN 10 PX AUTO AJUSTA A IMAGEM NO MEIO DA PAGINA */
+        background-color: aliceblue;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.527);
+        color: #FFFFFF
+
+
+}
+
+
+h1 {
+
+    color: white;
+
+
+}
+
+P {
+
+    color: white;
+    
+}

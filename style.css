@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@300&display=swap');;
+
+
+h1 {  
+      color: rgb(0, 204, 204);
+      font-size: 40px;
+      text-transform: capitalize;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: 0.8px;
+      word-spacing: 2px;
+     }
+
+     h2 {
+         color: rgb(204, 0 , 0 );
+         font-family: 'Poppins', sans-serif;
+         font-size: 25px;
+         text-transform: capitalize;
+         letter-spacing: 0.8px;
+         word-spacing: 2px
+
+     }
+     p   {
+         color: rgb(32, 32, 32);
+         font-size: 17.5px;
+         text-transform: none;
+         letter-spacing: normal;
+         font-family: 'Lato', sans-serif;
+         word-spacing: normal;
+         
+        } 
+
+    a {
+        text-decoration: none;
+        color: #a32d51;
+        font-weight: 800;
+    }
+
+    a:hover {   
+        text-decoration: underline;
+            }
+    /* underline faz com que a palavra fique grifada e hover faz com que a palavra fique marcada como hiperlink */
+            
+    body {
+
+        background-color: rgb(222, 248, 222);
+
+    }
+
+    ul {
+
+        list-style: none;
+    }
+
+     ol li  {
+
+        font-size: 20px;
+        color: orange;
+    }
+
+    ul li {
+
+        font-size: 20px;
+        color: red;
+    }
+
+    img {
+
+        display: block;
+    }
+/* img + display block faz com que apareça apenas UMA imagem por linha*/
