@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+body {
+
+    font-family: 'Open Sans';
+
+}
+
+.container {
+    width: 500px;
+    height: 380px;
+    margin: 10px;
+    border: 1px solid black;
+    color: blue;
+}
+
+.box {
+    width: 70px;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    color: black;
+    display: block;
+    /* inline-block fica uma ao lado da outra */
+    margin: 10px;
+    float: left;
+    /* faz as colunas ficarem uma próxima a outra sem se encostar */
+}
+
+p {
+    clear: both;
+    /* Alinha o elemento abaixo da tabela ao inves de ficar na mesma linha */
+}
+
+
+.box_1 {background-color: #777;}
+.box_2 {background-color: #888;}
+.box_3 {background-color: #999;}
+.box_4 {background-color: #AAA;}
+.box_5 {background-color: #BBB;}
